@@ -13,6 +13,10 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - pip install -r day-13/simple-python-app/requirements.txt
+      - echo "Listing current directory:"
+      - ls -la
+      - echo "Listing parent directory:"
+      - ls -la 
   build:
     commands:
       - echo "Running tests..."
