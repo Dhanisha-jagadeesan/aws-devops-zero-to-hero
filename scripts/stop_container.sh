@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
 
-# Stop the running container (if any)
-echo "Hi"
+
+# Starting the Docker container
+docker run your-image-name || { echo "Docker run failed with exit code $?"; exit 125; }
