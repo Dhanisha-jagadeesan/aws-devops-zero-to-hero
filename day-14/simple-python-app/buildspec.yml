@@ -17,6 +17,14 @@ phases:
       - ls -la
       - echo "Listing parent directory:"
       - ls -la 
+      - echo "Current directory:"
+      - pwd
+      - echo "Listing contents of current directory:"
+      - ls -la
+      - echo "Listing contents of day-14:"
+      - ls -la day-14
+      - echo "Listing contents of day-14/simple-python-app:"
+      - ls -la day-14/simple-python-app
   build:
     commands:
       - echo "Running tests..."
